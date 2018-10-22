@@ -4,11 +4,14 @@
 
 #include <iostream>
 
+
+
 int main() {
 
     std::cout << "We are going to build a cuboid -" ;
     std::cout << "Please enter Width";
     std::cin >> Width;
+    float Width "%f";
 
     return(0);
 };
