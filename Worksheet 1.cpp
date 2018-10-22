@@ -1,7 +1,3 @@
-//
-// Created by Claudia Brown on 20/10/2018.
-//
-
 #include <iostream>
 
 
@@ -11,7 +7,8 @@ int main() {
     double Width;
     double Height;
     double Length;
-
+    double Volume;
+    double Surface_Area;
 
     // Ask user for Width, Height and Length
 
@@ -31,9 +28,16 @@ int main() {
     std::cout << "Please enter Length";
     std::cin >> Length;
 
+    // Calculate
+
+    Volume = Width * Height * Length;
+    Surface_Area = 2 * Length * Width + 2 * Length * Height + 2 * Height * Width;
 
 
+    std::cout << "The Volume of the Cuboid is:" << Volume
+              << ", The Surface Area of the Cuboid is:" << Surface_Area << std::endl;
 
+    system("PAUSE");
 
     return(0);
 };
