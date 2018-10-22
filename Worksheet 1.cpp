@@ -8,27 +8,32 @@
 
 int main() {
 
-    float Width = 0.0;
-    float Height = 0.0;
-    float Length = 0.0;
+    double Width;
+    double Height;
+    double Length;
 
 
-    std::cout << "We are going to build a cuboid -" ;
+    // Ask user for Width, Height and Length
+
+    std::cout <<  "We are going to build a cuboid -";
+
+
     std::cout << "Please enter Width";
     std::cin >> Width;
 
-    float Width "%f";
+
 
     std::cout << "Please enter Height";
     std::cin >> Height;
 
-    float Height "%f";
+
 
     std::cout << "Please enter Length";
     std::cin >> Length;
 
-    float Length "%f";
+
+
+
 
     return(0);
 };
-
