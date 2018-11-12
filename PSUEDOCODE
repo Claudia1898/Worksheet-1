@@ -1,0 +1,25 @@
+_____________________________
+
+PSUEDOCODE
+_____________________________
+
+GUESS THE NUMBER GAME
+
+
+START
+    SEED RAND NUM
+    GENERATE TARG_NUM = NUM BETWEEN 1-10
+    OUTPUT "Please guess number between 1-10"
+    DO LOOP {
+    USER INPUT GUESS (1-10)
+    IF TARG_NUM LESS THAN USER INPUT
+    OUTPUT "The number is lower!"
+    ELSE IF TARG NUM > USER INPUT
+    OUTPUT "The number is higher"
+    WHILE TARG_NUM EQUALS USER INPUT
+    OUTPUT "That answer is correct! WON GAME."
+    Return 0
+END
+
+
+_______________________________
